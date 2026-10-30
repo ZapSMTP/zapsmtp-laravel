@@ -9,7 +9,7 @@ Laravel 12.60+ and 13 (the releases with security support); PHP 8.2+ (8.3+ for L
 ## Install
 
 ```bash
-composer require "zapsmtp/zapsmtp-laravel:^0.1@beta" "zapsmtp/zapsmtp-php:^0.1@beta"
+composer require zapsmtp/zapsmtp-laravel
 php artisan zapsmtp:install
 ```
 
