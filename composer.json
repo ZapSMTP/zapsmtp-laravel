@@ -14,7 +14,7 @@
     "homepage": "https://zapsmtp.com/docs/sdks/",
     "require": {
         "php": "^8.2",
-        "guzzlehttp/psr7": "^2.4",
+        "guzzlehttp/psr7": "^2.4 || ^3.0",
         "illuminate/bus": "^12.60 || ^13.0",
         "illuminate/cache": "^12.60 || ^13.0",
         "illuminate/console": "^12.60 || ^13.0",
@@ -43,7 +43,7 @@
             "options": {
                 "symlink": false,
                 "versions": {
-                    "zapsmtp/zapsmtp-php": "0.1.0"
+                    "zapsmtp/zapsmtp-php": "0.1.1"
                 }
             }
         }
