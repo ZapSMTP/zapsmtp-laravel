@@ -43,7 +43,7 @@
             "options": {
                 "symlink": false,
                 "versions": {
-                    "zapsmtp/zapsmtp-php": "0.1.2"
+                    "zapsmtp/zapsmtp-php": "0.1.3"
                 }
             }
         }

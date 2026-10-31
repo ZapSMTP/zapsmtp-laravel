@@ -15,7 +15,8 @@ php artisan zapsmtp:install
 
 `zapsmtp:install` publishes `config/zapsmtp.php` and adds `ZAPSMTP_API_KEY=`, `MAIL_MAILER=zapsmtp`
 and `ZAPSMTP_WEBHOOK_SECRET=` to `.env` and `.env.example` where they are missing (a value you have
-is never changed). Then put your key in `.env`:
+is never changed: a new Laravel app already has `MAIL_MAILER=log`, which stays, and the command says
+so). Then set the mailer and put your key in `.env`:
 
 ```dotenv
 MAIL_MAILER=zapsmtp
