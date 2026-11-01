@@ -31,6 +31,7 @@ use ZapSMTP\Laravel\Testing\ZapSMTPFake;
  * @method static \ZapSMTP\Service\DedicatedIpsService dedicatedIps()
  * @method static \ZapSMTP\Service\LogsService logs()
  * @method static \ZapSMTP\Service\UsageService usage()
+ * @method static \ZapSMTP\Service\AccountService account()
  * @method static \ZapSMTP\Service\TemplateModulesService templateModules()
  * @method static \ZapSMTP\Service\TemplateAssetsService templateAssets()
  * @method static \ZapSMTP\Service\TemplateTimersService templateTimers()
