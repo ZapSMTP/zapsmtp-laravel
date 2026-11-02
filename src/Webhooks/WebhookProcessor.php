@@ -32,6 +32,17 @@ final class WebhookProcessor
         WebhookEvent::EMAIL_RECEIVED => Events\EmailReceived::class,
         WebhookEvent::THREAD_CREATED => Events\ThreadCreated::class,
         WebhookEvent::THREAD_REPLIED => Events\ThreadReplied::class,
+        WebhookEvent::EMAIL_OPENED_UNIQUE => Events\EmailOpenedUnique::class,
+        WebhookEvent::EMAIL_CLICKED_UNIQUE => Events\EmailClickedUnique::class,
+        WebhookEvent::EMAIL_UNSUBSCRIBED => Events\EmailUnsubscribed::class,
+        WebhookEvent::EMAIL_FORWARD_FAILED => Events\EmailForwardFailed::class,
+        WebhookEvent::DOMAIN_VERIFIED => Events\DomainVerified::class,
+        WebhookEvent::DOMAIN_REPUTATION_CHANGED => Events\DomainReputationChanged::class,
+        WebhookEvent::EMAIL_SCHEDULED => Events\EmailScheduled::class,
+        WebhookEvent::SUPPRESSION_ADDED => Events\SuppressionAdded::class,
+        WebhookEvent::SUPPRESSION_REMOVED => Events\SuppressionRemoved::class,
+        WebhookEvent::DOMAIN_CREATED => Events\DomainCreated::class,
+        WebhookEvent::DOMAIN_DELETED => Events\DomainDeleted::class,
     ];
 
     private const CACHE_PREFIX = 'zapsmtp:webhook:';
