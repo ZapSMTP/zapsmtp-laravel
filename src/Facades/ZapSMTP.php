@@ -37,6 +37,8 @@ use ZapSMTP\Laravel\Testing\ZapSMTPFake;
  * @method static \ZapSMTP\Service\TemplateTimersService templateTimers()
  * @method static \ZapSMTP\Service\ActionsService actions()
  * @method static \ZapSMTP\Service\VariablesService variables()
+ * @method static \ZapSMTP\Service\EmailValidationsService emailValidations()
+ * @method static \ZapSMTP\Service\PlacementTestsService placementTests()
  * @method static \ZapSMTP\ApiResponse|null lastResponse()
  * @method static string getBaseUrl()
  *
